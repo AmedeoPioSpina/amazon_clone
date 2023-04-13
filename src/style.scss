@@ -1,0 +1,29 @@
+.app{
+    nav{
+        .first-nav-band{
+            background-color: #232f3e;
+            display: flex;
+            .side-menu{
+                .menu-btn{
+                    border: none;
+                    background-color: transparent;
+                }
+            }
+            .logo{
+                display: flex;
+                align-items: center;
+                img{
+                    width: 5rem;
+                }
+            }
+            .sign-in{
+                display: flex;
+                align-items: center;
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
