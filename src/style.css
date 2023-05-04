@@ -5,6 +5,10 @@
 .app nav .first-nav-band .side-menu .menu-btn {
   border: none;
   background-color: transparent;
+  padding: 0.6rem;
+}
+.app nav .first-nav-band .side-menu .menu-btn img {
+  width: 1.5rem;
 }
 .app nav .first-nav-band .logo {
   display: flex;
@@ -13,11 +17,10 @@
 .app nav .first-nav-band .logo img {
   width: 5rem;
 }
-.app nav .first-nav-band .sign-in {
-  display: flex;
-  align-items: center;
-}
 .app nav .first-nav-band .sign-in a {
+  align-items: center;
   color: white;
+  display: flex;
   text-decoration: none;
+  padding: 0.6rem;
 }/*# sourceMappingURL=style.css.map */

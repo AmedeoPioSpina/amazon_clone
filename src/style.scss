@@ -7,6 +7,11 @@
                 .menu-btn{
                     border: none;
                     background-color: transparent;
+                    padding: 0.6rem;
+                    img{
+                        width: 1.5rem;
+                        
+                    }
                 }
             }
             .logo{
@@ -17,11 +22,15 @@
                 }
             }
             .sign-in{
-                display: flex;
-                align-items: center;
                 a{
+                    align-items: center;
                     color: white;
+                    display: flex;
                     text-decoration: none;
+                    padding: 0.6rem;
+                    p{
+                        
+                    }
                 }
             }
         }
